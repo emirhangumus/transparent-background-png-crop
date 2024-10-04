@@ -35,10 +35,10 @@ Replace `input_image.png` with the path to your input PNG image and `output_imag
 Here's an example of how the script can be used:
 
 ```bash
-python png_transparent_crop.py example.png cropped_example.png --min_transparency 2
+python png_transparent_crop.py example.png cropped_example.png
 ```
 
-This command will crop the image `example.png` by removing fully transparent pixels with an alpha channel value less than 2. The resulting cropped image will be saved as `cropped_example.png`.
+[![Showcase Image](showcase.jpg)](showcase.jpg)
 
 ## License
 
